@@ -1,0 +1,9 @@
+/* basic style.css setup */
+div {
+    color: white;
+    background-color: red;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

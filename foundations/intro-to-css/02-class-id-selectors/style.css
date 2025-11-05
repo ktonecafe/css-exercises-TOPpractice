@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+.para,
+.gra,
+.ph {
+    background-color: #f16b8f;
+    font-family: Verdana, DejaVuSans, sans-serif;
+}
+#ida {
+    font-size: 36px;
+    color: #1d71bc;
+}
+.gra {
+    font-size: 24px;
+}
+#idb {
+    background-color: #c2e1b4;
+    font-size: 24px;
+    font-weight: bold;
+}

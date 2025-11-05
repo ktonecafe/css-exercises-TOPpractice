@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+.buta {
+    background-color: #000000;
+    color: #ffffff;
+}
+.butb {
+    background-color: #ffd966;
+}
+.buta,
+.butb {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
