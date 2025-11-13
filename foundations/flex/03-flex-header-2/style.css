@@ -18,10 +18,15 @@ body {
     padding: 8px;
 }
 .logolinks {
-    justify-content: flex-start;
+    display: flex;
+    justify-self: flex-start;
 }
 .profileinfo {
-    justify-content: flex-end;
+    display: flex;
+    justify-self: flex-end;
+    align-self: center;
+    gap: 16px;
+    flex: 0 0 auto;
 }
 .profile-image {
     background: rebeccapurple;
@@ -39,6 +44,9 @@ body {
 }
 
 button {
+    display: flex;
+    align-self: center;
+    height: 30px;
     border: none;
     border-radius: 8px;
     background: rebeccapurple;
@@ -53,5 +61,7 @@ a {
 }
 
 ul {
+    display: flex;
     list-style-type: none;
+    gap: 16px;
 }
